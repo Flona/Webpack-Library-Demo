@@ -1,0 +1,26 @@
+{
+  "name": "Webpack-Library-Demo",
+  "version": "1.0.0",
+  "description": "创建library栗子",
+  "main": "dist/webpack-numbers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flona/Webpack-Library-Demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flona/Webpack-Library-Demo/issues"
+  },
+  "homepage": "https://github.com/Flona/Webpack-Library-Demo#readme",
+  "devDependencies": {
+    "lodash": "^4.17.11",
+    "webpack": "^4.20.0",
+    "webpack-cli": "^3.1.1"
+  }
+}
